@@ -89,12 +89,23 @@ main p {
     text-decoration: none;
     color: #1a73e8;
     font-size: 13px;
+  
     }
-.credenziali,.email{
+    .email:hover{
+      color: cornsilk;
+    
+    }
+
+    .credenziali,.email{
     font-family: sans-serif;
 }
 .container{
     margin-top: 5px;
+    transition: transform .7s;
+}
+.container:hover{
+
+    transform: scale(1.1);
 }
     /*Regole footer  */
 footer{
