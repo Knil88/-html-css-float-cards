@@ -1,0 +1,110 @@
+/* Regole Generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+}
+
+/* Regole header */
+
+header{
+    height:100px;
+    text-align: center;
+    padding-top: 30px;
+    color:#e53070;
+  
+}
+
+/* Regole Main */
+
+main{
+    width: 70%;
+    margin: auto; 
+}
+main p {
+    text-align: center;
+    margin-bottom: 44px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+     /*Regole card e row  */
+
+  .row::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.card {
+    box-shadow: 5px 5px 15px grey;
+    width: 289px;
+    height: 86px;
+    float: left;
+    margin-bottom: 29px;
+    margin-left: 25px;
+    background-color: black;
+}
+    /* Regole foto ed imamgini */
+
+.photo img{
+    border: solid black 1px;
+    width: 80px;
+    height: 84px;
+    float: left;
+}
+
+/* Regole nome e credenziali */
+
+.name,.credenziali {
+    color: white;
+    margin-left: 10px;
+    float: left;
+}
+.name {
+    font-size: 15px;
+    MARGIN-TOP: 15px;
+}
+.credenziali  {
+    font-size: 13px;
+    margin-top: 5px;
+} 
+
+.card::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.photo::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+    /* Regole mail e container */
+
+.email {
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 13px;
+    }
+.credenziali,.email{
+    font-family: sans-serif;
+}
+.container{
+    margin-top: 5px;
+}
+    /*Regole footer  */
+footer{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+    
+
+
+
