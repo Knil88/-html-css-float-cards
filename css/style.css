@@ -6,28 +6,33 @@
 }
 body{
     font-size: 16px;
+    font-family: 'Fredoka One', cursive;
 }
-/* DEBUG */
+
 header{
     height:100px;
     text-align: center;
     padding-top: 30px;
+    color:#e53070;
   
 }
 
-/* DEBUG */
+
 main{
     width: 70%;
     margin: auto; 
 }
-  main p{
+main p {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 44px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
     
-  }
+  
   .row {
     margin: auto;
-    width: 97%;
+   
    
 }
 
@@ -39,7 +44,7 @@ main{
 }
 .card {
     border: solid black 1px;
-    width: 261px;
+    width: 289px;
     height: 86px;
     float: left;
     margin-bottom: 29px;
@@ -59,17 +64,20 @@ main{
     float: left;
 }
 .name {
-    font-size: 18px;
+    font-size: 15px;
     MARGIN-TOP: 15px;
 }
 .credenziali  {
     font-size: 13px;
+    margin-top: 5px;
 } 
 .email {
     text-decoration: none;
     color: #1a73e8;
     font-size: 13px;
-    
+    }
+.credenziali,.email{
+    font-family: sans-serif;
 }
 .container{
     margin-top: 5px;
