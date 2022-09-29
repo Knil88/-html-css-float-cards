@@ -62,8 +62,18 @@ main{
     font-size: 18px;
     MARGIN-TOP: 15px;
 }
-.credenziali    
-
+.credenziali  {
+    font-size: 13px;
+} 
+.email {
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 13px;
+    
+}
+.container{
+    margin-top: 5px;
+}
 .card::after{
     content: "";
     display: table;
