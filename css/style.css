@@ -27,7 +27,7 @@ main{
   }
   .row {
     margin: auto;
-    background-color: blueviolet;
+   
 }
 .row::after{
     content: "";
