@@ -27,8 +27,10 @@ main{
   }
   .row {
     margin: auto;
+    width: 97%;
    
 }
+
 .row::after{
     content: "";
     display: table;
@@ -42,6 +44,35 @@ main{
     float: left;
     margin-bottom: 29px;
     margin-left: 25px;
+    background-color: black;
+}
+.photo img{
+    border: solid black 1px;
+    width: 80px;
+    height: 84px;
+    float: left;
+}
+
+.name,.credenziali {
+    color: white;
+    margin-left: 10px;
+    float: left;
+}
+.name {
+    font-size: 18px;
+    MARGIN-TOP: 15px;
+}
+.credenziali    
+
+.card::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.photo::after{
+    content: "";
+    display: table;
+    clear: both;
 }
     
 
