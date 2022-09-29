@@ -4,4 +4,46 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-size: 16px;
+}
 /* DEBUG */
+header{
+    height:100px;
+    text-align: center;
+    padding-top: 30px;
+  
+}
+
+/* DEBUG */
+main{
+    width: 70%;
+    margin: auto; 
+}
+  main p{
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  .row {
+    margin: auto;
+    background-color: blueviolet;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.card {
+    border: solid black 1px;
+    width: 261px;
+    height: 86px;
+    float: left;
+    margin-bottom: 29px;
+    margin-left: 25px;
+}
+    
+
+
+
