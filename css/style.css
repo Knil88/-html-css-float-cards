@@ -92,15 +92,15 @@ main p {
     
     }
 
-
-
-.credenziali,.email{
+    .credenziali,.email{
     font-family: sans-serif;
 }
 .container{
     margin-top: 5px;
 }
-    /*Regole footer  */
+   
+/*Regole footer  */
+
 footer{
     font-size: 30px;
     text-align: center;
